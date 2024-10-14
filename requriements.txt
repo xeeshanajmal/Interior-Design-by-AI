@@ -1,0 +1,6 @@
+streamlit
+boto3
+pillow
+matplotlib
+numpy
+json
