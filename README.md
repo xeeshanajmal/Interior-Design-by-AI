@@ -89,4 +89,4 @@ Once everything is set up, you can start the app and begin generating AI-generat
 - **Model Deployment**: [AWS SageMaker](https://aws.amazon.com/sagemaker/)
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed.
