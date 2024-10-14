@@ -80,7 +80,7 @@ Once everything is set up, you can start the app and begin generating AI-generat
 
 ## Sample Output
 
-![Sample Generated Image]([link_to_your_image.png](https://github.com/xeeshanajmal/Interior-Design-by-AI/blob/main/images/industrial%20drawing%20room.png))
+![Sample Generated Image][https://github.com/xeeshanajmal/Interior-Design-by-AI/blob/main/images/industrial%20drawing%20room.png]
 
 ## Credits
 
