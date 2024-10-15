@@ -9,6 +9,7 @@ This project enables users to generate interior design images based on room type
 
 ## Table of Contents
 - [Installation](#installation)
+- [Cloud Deployment](#cloud-deployment)
 - [Setup](#setup)
 - [Usage](#usage)
 - [Running the Application](#running-the-application)
@@ -32,6 +33,22 @@ This project enables users to generate interior design images based on room type
     ```bash
     pip install -r requirements.txt
     ```
+
+
+## Cloud Deployment
+
+To deploy this application on an AWS EC2 instance and make it accessible via the internet, follow these steps:
+
+### 1. System Update and Installation
+
+```bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install python3 -y
+sudo apt install python3-pip -y
+sudo pip3 install --upgrade pip
+sudo apt install python3.12-venv
+```
+
 
 ## Setup
 
