@@ -49,6 +49,39 @@ sudo pip3 install --upgrade pip
 sudo apt install python3.12-venv
 ```
 
+### 2. Clone the Repository:
+
+```bash
+git clone https://github.com/xeeshanajmal/Interior-Design-by-AI.git
+cd Interior-Design-by-AI
+
+```
+
+### 3. Create a Virtual Environment:
+
+```bash
+python3 -m venv myenv
+cd myenv
+source myenv/bin/activate
+
+```
+
+### 4. Install Required Dependencies:
+
+```bash
+pip install streamlit boto3 Pillow matplotlib numpy
+
+```
+
+### 5. Running the Application:
+
+Start the Streamlit app on port 8501:
+```bash
+cd src
+streamlit run app_interface.py --server.port 8501
+
+
+```
 
 ## Setup
 
