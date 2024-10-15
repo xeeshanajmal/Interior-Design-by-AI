@@ -120,11 +120,12 @@ Once everything is set up, you can start the app and begin generating AI-generat
 
 1. **Run the Streamlit App**:
     ```bash
-    streamlit run app.py
+    streamlit run app_interface.py --server.port 8501
+
     ```
 
 2. **Access the Web Interface**:
-    - Open your browser and go to `http://localhost:8501`.
+    - Open your browser and go to the provided External URL.
     - Select the room type and style, or enter a custom prompt.
     - Click **Generate Image** to generate an image using the Stable Diffusion model.
 
