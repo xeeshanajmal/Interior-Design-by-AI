@@ -87,6 +87,9 @@ streamlit run app_interface.py --server.port 8501
 
 ### AWS SageMaker Setup
 
+
+
+
 1. Make sure to deploy the **Stable Diffusion model** via AWS SageMaker. You can use AWS JumpStart for deploying the `Stable Diffusion v2-1` model.
 
 2. Note down your **SageMaker Endpoint Name** and **Inference Component Name**.
@@ -103,6 +106,25 @@ streamlit run app_interface.py --server.port 8501
 
 Make sure your AWS credentials (`access_key`, `secret_key`, and `region`) are configured through environment variables or in your AWS CLI profile.
 
+### AWS SageMaker and CLI Setup
+
+#### Install AWS CLI:
+
+```bash
+
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+```
+#### Configure AWS CLI:
+
+```bash
+aws configure
+Enter your AWS Access Key ID
+Enter your AWS Secret Access Key
+Enter your region (e.g., eu-north-1)
+Set your output format (optional).
+```
 ## Usage
 
 Once everything is set up, you can start the app and begin generating AI-generated interior designs.
